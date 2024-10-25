@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="funsite2.css">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Malala Yousafzai - Accueil</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            
+            <header>
+                <head>
+            <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <h1 style="font-family: 'Great Vibes', cursive; font-size: 100px; color: #1c0a6a;">Malala Yousafzai</h1>
+        </body>
+        
+                <nav>
+                    <div class="nav-buttons">
+                        <a href="fansite2index.html">Accueil</a>
+                        <a href="funsite2realisations.html">Réalisations</a>
+                        <a href="funsite2actualite.html">Actualité</a>
+                        
+                        <a href="funsite2videos.html">Vidéos</a>
+                    </div>
+                </nav>
+               
+                <main>
+                    <section>
+                        <h1>Citations Inspirantes ( anglais)</h1>
+                        <div class="quotes-gallery">
+                            <div class="quote-image">
+                                <img src="Slide1.JPG" alt="Citation 1">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide2.JPG" alt="Citation 2">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide3.JPG" alt="Citation 3">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide4.JPG" alt="Citation 4">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide5.JPG" alt="Citation 5">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide6.JPG" alt="Citation 6">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide7.JPG" alt="Citation 7">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide8.JPG" alt="Citation 8">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide9.JPG" alt="Citation 9">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide10.JPG" alt="Citation 10">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide11.JPG" alt="Citation 11">
+                            </div>
+                            <div class="quote-image">
+                                <img src="Slide12.JPG" alt="Citation 12">
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                
+                <style>
+                    /* Flexbox setup for 3 pictures per line */
+                    .quotes-gallery {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        gap: 20px;
+                        padding: 20px;
+                    }
+                
+                    .quote-image {
+                        flex: 0 1 calc(33.33% - 20px); /* 3 items per row */
+                        position: relative;
+                        overflow: hidden;
+                        border-radius: 15px;
+                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                        transition: transform 0.3s ease, box-shadow 0.3s ease;
+                        z-index: 1;
+                    }
+                
+                    .quote-image img {
+                        width: 100%;
+                        height: auto;
+                        border-radius: 15px;
+                        transition: transform 0.3s ease;
+                    }
+                
+                    /* Hover effect with 130% zoom */
+                    .quote-image:hover {
+                        transform: scale(1.3); /* 130% zoom */
+                        z-index: 5;
+                        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+                    }
+                
+                    .quote-image:hover img {
+                        transform: scale(1);
+                    }
+                
+                    .quotes-gallery {
+                        position: relative;
+                        height: auto;
+                    }
+                
+                    .quote-image:hover ~ .quote-image {
+                        opacity: 0.8;
+                    }
+                </style>
+                            
+    <footer>
+        <p>Contact: redha.aggoun@Laplateforme.io</p>
+    </footer>
+</body>
+</html>
